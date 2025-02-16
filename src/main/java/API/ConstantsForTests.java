@@ -7,4 +7,6 @@ public class ConstantsForTests {
     public static final int SELLER_ID = 1234349231;
 
     public static final String BASE_URI = "https://qa-internship.avito.com";
+
+    public static final String INVALID_ID_FORM = "12698";
 }

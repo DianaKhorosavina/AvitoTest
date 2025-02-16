@@ -115,7 +115,7 @@ public class ApiTest {
     @Test
     public void getPromoByInvalidIdForm() {
         given()
-                .pathParam("id", "12698")
+                .pathParam("id", INVALID_ID_FORM)
                 .when()
                 .get("/api/1/item/{id}")
                 .then()
@@ -183,7 +183,7 @@ public class ApiTest {
     @Test
     public void getStatisticsByInvalidId() {
         given()
-                .pathParam("id", "456978")
+                .pathParam("id", INVALID_ID_FORM)
                 .when()
                 .get("/api/1/statistic/{id}")
                 .then()
