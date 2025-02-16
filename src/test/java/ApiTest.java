@@ -109,7 +109,7 @@ public class ApiTest {
                 .statusCode(404)
                 .log().body()
                 .extract()
-                .response(); // баг в ответе, сообщение: null
+                .response();
     }
 
     @Test
@@ -177,7 +177,7 @@ public class ApiTest {
                 .log().body()
                 .extract()
                 .response();
-        // баг в сообщении null
+
     }
 
     @Test
